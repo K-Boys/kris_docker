@@ -1,0 +1,13 @@
+{
+	"short_name": "PrimerPWA",
+	"name":"Mi primer PWA",
+	"icons": [
+		{
+			"src": "boys.png"
+			"sizes": "256x256"
+			"type": "image/png"
+		}
+	],
+	"start_url": "Null.html",
+	"background_color": "#C6B2D1"
+}

@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+text-transform: uppercase;
+font: 100% sans-serif;
+}
+body{
+  padding: 1rem;
+}
+
+#logo{
+	
+	margin-left: 20px;
+	margin-right: auto;
+	margin-left: calc(100%-200px);
+	width: calc(100% - 100px);
+}
+#logout{
+	width: 15%;
+}
+
+form {
+	font: 100% sans-serif;
+text-align: center;
+  padding: 1em;
+  background: #f9f9f9;
+  border: 1px solid #c1c1c1;
+   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+
+}
+form input {
+  margin-bottom: 1rem;
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+form button {
+  background: lightgrey;
+  padding: 0.7em;
+  border: 0;
+}
+form button:hover {
+  background: rgba(0,255,215,0.2);
+}
+
+label {
+	
+  text-align: center;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+
+input,select {
+	text-align: center;
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+input:focus,select:focus {
+  outline: 3px solid rgba(0,255,215,0.5);
+}
+
+@media (min-width: 400px) {
+  form {
+    overflow: hidden;
+  }
+
+  label,select {
+ font: 100% sans-serif;
+  	text-align: center;
+    float: center;
+    width: 200px;
+  }
+
+  input,select {
+  	font: 100% sans-serif;
+  	text-align: center;
+    float: center;
+    width: calc(100% - 200px);
+  }
+
+  button {
+  	font: 100% sans-serif;
+  	text-align: center;
+    margin-bottom: 20px; 
+    width: calc(70% - 200px);
+  }
+}
+#botonchi{
+	margin-right: 20px;
+	background-color: red;
+	color: red;
+}
+input{
+  text-transform: uppercase;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    color: black;
+}
+
+li {
+    float: left;
+color: black;
+}
+
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+li a.active {
+    color: black;
+    background-color:  rgba(0,255,215,0.3);
+}
+#derecha{
+  float: right;
+}
+
+
+/*body{
+	 
+	text-align: center; 
+	
+}
+form{
+	background-color: rgba(0,255,215,0.2); 
+	 
+	padding: 2% ;
+	margin:  10px 35% ;
+	border-radius: 20px;
+	border-color:grey; 
+	border-style: outset;
+	
+	
+}
+
+input, option{
+background-color: ;
+border-color: ;
+padding:4px 10%;
+border-style: outset ;
+color: black;
+border-radius: 4px;
+text-align: center;
+}
+select{
+background-color: ;
+border-color: ;
+padding:4px 10%;
+border-radius: 4px;
+border-style: outset ;
+color: black;
+text-align: center;
+}
+
+#logout{
+margin-top: 5%;
+	width: 15%;
+	
+}
+#logo{
+	text-align: ;
+	background-color: rgba(0,0,0,0);
+	margin-right: 3%;
+	margin-top: 2%;
+	}
